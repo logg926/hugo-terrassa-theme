@@ -99,7 +99,7 @@ themesDir = "../.." # Not necessary on production sites
 
 [languages]
     [languages.zh]
-        languageName = "zh"
+        languageName = "中文"
         weight = 1
         contentDir = "content/zh"
       [languages.en]
