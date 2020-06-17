@@ -1,11 +1,14 @@
 ---
-title: "Home"
-description: ""
-images: ["undraw_freelancer_b0my.svg"]
-draft: false
-menu: main
-weight: 1
----
+title: Home
+description: ''
+images:
+- undraw_freelancer_b0my.svg
+weight: "1"
+menu:
+  main:
+    weight: 1
 
-# Terrassa
+---
+# **EDU**_nimal_
+
 ## Das Hugo Theme für dich. Oder dein Unternehmen.
