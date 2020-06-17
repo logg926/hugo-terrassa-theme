@@ -2,7 +2,7 @@ baseurl = "/"
 title = "Terrassa"
 author = "Daniel Zaragoza (Danielkvist)"
 googleAnalytics = ""
-defaultContentLanguage = "en"
+defaultContentLanguage = "zh"
 paginate = 3
 
 theme = "hugo-terrassa-theme"
@@ -98,25 +98,25 @@ themesDir = "../.." # Not necessary on production sites
     show = true
 
 [languages]
-    [languages.en]
-        languageName = "en"
+    [languages.zh]
+        languageName = "zh"
         weight = 1
-        contentDir = "content/en"
-      [languages.de]
-        languageName = "de"
+        contentDir = "content/zh"
+      [languages.en]
+        languageName = "en"
         weight = 2
-        contentDir = "content/de"
+        contentDir = "content/en"
         title = "Das ist der deutsche Titel"
         description = "Das ist die deutsche Beschreibung"
-        [languages.de.params]
-          [languages.de.params.form] # Translate contact form fields
+        [languages.en.params]
+          [languages.en.params.form] # Translate contact form fields
             inputNameLabel = "Name"
             inputNamePlaceholder = "Dein Name"
             inputEmailLabel = "E-mail"
             inputEmailPlaceholder = "Deine E-Mail-Adresse"
             inputMsgLabel = "Schreib etwas"
             inputSubmitValue = "Abschicken"
-            [languages.de.params.cta] # Translate Call To Action
+            [languages.en.params.cta] # Translate Call To Action
                 show = true
                 cta = "Kontakt"
-                link = "de/kontakt/" # Relative URL
+                link = "zh/kontakt/" # Relative URL
